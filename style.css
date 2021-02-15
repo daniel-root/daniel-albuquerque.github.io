@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .container{
@@ -21,6 +22,7 @@ body{
 }
 
 .card{
+    transform-style: preserve-3d;
     min-height: 80vh;
     width: 35rem;
     border-radius: 30px;
@@ -38,6 +40,7 @@ body{
 .sneaker img{
     width: 10rem;
     z-index: 2;
+    transition: all 0.75s ease-out;
 }
 .circle{
     width: 10rem;
@@ -54,17 +57,20 @@ body{
 .info h1{
     font-size: 2rem;
     text-align: center;
+    transition: all 0.75s ease-out;
 }
 .info h3{
     font-size: 1.3rem;
     padding: 2rem 0rem;
     color: #585858;
     font-weight: lighter;
+    transition: all 0.75s ease-out;
 }
 
 .tecnologias{
    display: flex;
    justify-content: space-between;
+   transition: all 0.75s ease-out;
 }
 .tecnologias button{
     padding: 0.5rem 1rem;
@@ -77,12 +83,13 @@ body{
     color: #585858;
 }
 
-.conhecer-mais{
+.conhecer_mais{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    transition: all 0.75s ease-out;
 
 }
-.conhecer-mais button{
+.conhecer_mais button{
     width: 100%;
     padding: 1rem 0rem;
     background: tomato;
