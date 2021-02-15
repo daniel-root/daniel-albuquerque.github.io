@@ -86,7 +86,7 @@ body{
 .conhecer_mais{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    transition: all 0.75s ease-out;
+    
 
 }
 .conhecer_mais button{
@@ -98,6 +98,6 @@ body{
     cursor: pointer;
     border-radius: 30px;
     font-weight: bold;
-
+    transition: all 0.75s ease-out;
 }
 
